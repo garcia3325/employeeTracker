@@ -11,20 +11,19 @@ INSERT INTO department (id,name)
 -- Populate Roles 
 INSERT INTO role (id,title,salary,department_id)
     VALUES
-        (01,'Salesperson',80000.01,1),
-        (02,'Lead Engineer',150000.02,4),
-        (03,'Software Engineer',120000.03,4),
-        (04,'Account Manager',160000.04,2),
-        (05,'Accountant',125000.00,2),
-        (06,'Legal Team Lead',250000.05,3),
-        (07,'Lawyer',198000.06,3);
+        (01,'Salesperson',80000,1),
+        (02,'Lead Engineer',150000,4),
+        (03,'Software Engineer',120000,4),
+        (04,'Account Manager',160000,2),
+        (05,'Accountant',125000,2),
+        (06,'Legal Team Lead',250000,3),
+        (07,'Lawyer',198000,3);
 
 -- Populate Employees
 
 INSERT INTO employee (id,first_name,last_name,manager_id,role_id)
     VALUES
-        (001,'John','Doe',NULL,NULL),
-        (002,'Mike','Chan',001,01,
+        (002,'Mike','Chan',001,02),
         (003,'Ashley','Rodriguez',NULL,02),
         (004,'Kevin','Tupik',003,03),
         (005,'Kumal','Singh',NULL,04),
