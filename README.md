@@ -50,5 +50,5 @@ Project is created with:
 A small business owner can use this application to be able to view and manage the departments, roles, and employees within a company
 
 ## Video
-
+(https://drive.google.com/file/d/1J6meVw5r0zuVFfef-uzc_3snb_4pyMw3/view)
 
